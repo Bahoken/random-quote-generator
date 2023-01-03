@@ -1,0 +1,34 @@
+:root {
+  --color-red : rgb(231, 76, 60);
+  --color-oceangreen : rgb(22, 160, 133);
+  --color-darkbrown :  rgb(52, 34, 36);
+  --color-darkblue : rgb(44, 62, 80);
+  --color-yellow :  rgb(243, 156, 18);
+  --color-lightgreen : rgb(39, 174, 96);
+  --color-purple : rgb(155, 89, 182);
+  --color-desert : rgb(189, 187, 153);
+  --color-nightblue : rgb(44, 62, 80);
+}
+
+html {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  vertical-align: baseline;
+}
+
+
+body {
+  background-color: var(--color-bg, #eee);
+  color: #000;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 500;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+a {
+  text-decoration: none;
+}
